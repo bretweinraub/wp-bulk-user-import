@@ -26,7 +26,7 @@ Author URI: http://manojkumar.org/
 */
 
 
-require_once( 'bp-core.php' );
+require_once( WP_PLUGIN_DIR . '/buddypress/bp-core.php' );
 require_once( 'bp-user-import/bp-user-import-functions.php' );
 
 function user_import_add_admin_menu() {
